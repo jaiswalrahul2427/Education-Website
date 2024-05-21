@@ -1,11 +1,13 @@
-import './App.css'
+import Home from "./component/Home/Home"
+import Navbar from "./component/Navbar/Navbar"
 
 function App() {
 
   return (
-    <>
-     <h1>This is new project</h1>
-    </>
+    <div className="pg-1">
+    <Navbar/>
+    <Home/>
+    </div>
   )
 }
 
