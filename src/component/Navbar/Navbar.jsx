@@ -3,7 +3,7 @@ import './Navbar.css';
 import logo from '../../assets/logo.png'
 function Navbar() {
   return (
-    <nav className='py-2 px-[10%]'>
+    <nav className='py-2 px-[10%] sticky'>
       <img src={logo} alt="" className=' w-44' />
       <ul className='text-xl '  >
         <li>Home</li>
