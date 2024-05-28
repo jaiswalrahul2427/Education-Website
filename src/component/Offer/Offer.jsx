@@ -38,8 +38,8 @@ function Offer() {
             <img className='rounded' src={img} alt="img" />
             {hoveredIndex === index && (
               <div className='absolute inset-0 flex flex-col items-center justify-center text-center bg-black bg-opacity-50'>
-                <img className='w-14 hover:transition hover:ease-out' src={programIcons[index]} alt="Program" />
-                <p className='text-white'>Graduation Program</p>
+                <img className='w-6 md:w-14 hover:transition hover:ease-out' src={programIcons[index]} alt="Program" />
+                <p className='md:text-xl text-[10px] text-white '>Graduation Program</p>
               </div>
             )}
           </div>
