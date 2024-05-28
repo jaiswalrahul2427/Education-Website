@@ -7,7 +7,7 @@ import { FaArrowRight } from 'react-icons/fa'
 
 function Gallery() {
   return (
-    <div className='pt-16 px-[10%]'>
+    <div className='pt-16 px-[10%]' name='Gallery'>
       <h1 className='text-xl font-semibold text-center text-blue-700 font-poppins' >GALLERY</h1>
       <h2 className='pt-2 text-3xl font-bold text-center font-outfit text-blue-950'>Campus Photos</h2>
       <div className='grid grid-cols-2 gap-6 pt-16 md:grid-cols-4 '>

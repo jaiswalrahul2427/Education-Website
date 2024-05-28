@@ -33,4 +33,21 @@ a {
     background-size: cover;
 }
 
-.program {}
+.slick-prev:before,
+.slick-next:before {
+    color: #101e8d;
+}
+
+.slick-next:before {
+    content: '→';
+    margin-left: 0px;
+}
+
+@media only screen and (min-width: 1480px) {
+    .slick-next:before {
+        content: '→';
+        margin-left: -170px;
+    }
+}
+
+@media (max-width:1200px) {}

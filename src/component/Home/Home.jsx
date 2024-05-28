@@ -3,7 +3,7 @@ import {FaArrowRight } from 'react-icons/fa'
 import './Home.css'
 function Home() {
   return (
-    <div className='flex items-center justify-center text-white hero'>
+    <div className='flex items-center justify-center text-white hero' name='Home'>
       <div className='text-center '>
         <h1 className='text-6xl font-semibold font-outfit'>We Ensure better education <br /> for a better world</h1>
         <p className='mt-5 '>Out cutting-edge curriculum is designed to empower stident with the knowledge,skills, and <br /> experience needed to excel in the dynamic field of education</p>
